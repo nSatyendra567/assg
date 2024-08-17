@@ -12,6 +12,8 @@ import {
     Title,
     Tooltip,
     Legend,
+    BarController, // Import BarController
+    LineController // Import LineController
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 
@@ -24,7 +26,9 @@ ChartJS.register(
     PointElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+    BarController, // Import BarController
+    LineController // Import LineController
 );
 
 const ChartComponent = () => {
