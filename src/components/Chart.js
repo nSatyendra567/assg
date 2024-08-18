@@ -344,15 +344,15 @@ const ChartComponent = () => {
                         onClick={toggleFullscreen}
                         style={{ color:'#000' }} // Change text color based on fullscreen state
                     >
-                        {isFullscreen ? <AiOutlineClose className='text-lg' /> : <FaExpandAlt className='text-lg' />}
-                        <span className='text-lg'>{isFullscreen ? 'Close Fullscreen' : 'Fullscreen'}</span>
+                        {isFullscreen ? <AiOutlineClose className='text-lg text-gray-500 hover:text-black' /> : <FaExpandAlt className='text-lg text-gray-500 hover:text-black' />}
+                        <span className='text-lg text-gray-500 hover:text-black'>{isFullscreen ? 'Close Fullscreen' : 'Fullscreen'}</span>
                     </div>
                     <div
                         className="flex items-center gap-1 text-sm content-center cursor-pointer"
                         style={{ color:'#000' }} // Change text color based on fullscreen state
                     >
-                        <IoIosAddCircleOutline className='text-lg'/>
-                        <span className='text-lg'>Compare</span>
+                        <IoIosAddCircleOutline className='text-lg text-gray-500 hover:text-black'/>
+                        <span className='text-lg text-gray-500 hover:text-black'>Compare</span>
                     </div>
                 </div>
                 <div className="flex gap-2 flex-wrap">
