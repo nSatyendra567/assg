@@ -65,6 +65,7 @@ const ChartComponent = () => {
                     pointHoverBackgroundColor: '#3b82f6',
                     pointHoverRadius: 8,
                     pointBorderWidth: 2,
+                    yAxisID: 'y-axis-price'
                 },
                 {
                     type: 'bar',
