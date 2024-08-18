@@ -250,8 +250,14 @@ const ChartComponent = () => {
             'y-axis-price': {
                 type: 'linear',
                 position: 'left',
-                display: false, // Ensure the price line chart is visible
+                display: true, // Ensure the price line chart is visible
                 beginAtZero: false,
+                grid:{
+                    display:true
+                },
+                ticks: {
+                    display:false
+                },
             },
             'y-axis-volume': {
                 type: 'linear',
