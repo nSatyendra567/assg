@@ -340,19 +340,19 @@ const ChartComponent = () => {
             <div className="flex justify-between mb-2 text-sm font-semibold flex-wrap gap-2">
                 <div className="flex items-center gap-3 flex-wrap justify-between sm:justify-normal">
                     <div
-                        className="flex items-center gap-1 text-sm content-center cursor-pointer"
+                        className="flex items-center gap-1 text-sm content-center cursor-pointer group"
                         onClick={toggleFullscreen}
                         style={{ color:'#000' }} // Change text color based on fullscreen state
                     >
-                        {isFullscreen ? <AiOutlineClose className='text-lg text-gray-500 hover:text-black' /> : <FaExpandAlt className='text-lg text-gray-500 hover:text-black' />}
-                        <span className='text-lg text-gray-500 hover:text-black'>{isFullscreen ? 'Close Fullscreen' : 'Fullscreen'}</span>
+                        {isFullscreen ? <AiOutlineClose className='text-lg text-gray-500 group-hover:text-black' /> : <FaExpandAlt className='text-lg text-gray-500 group-hover:text-black' />}
+                        <span className='text-lg text-gray-500 group-hover:text-black'>{isFullscreen ? 'Close Fullscreen' : 'Fullscreen'}</span>
                     </div>
                     <div
-                        className="flex items-center gap-1 text-sm content-center cursor-pointer"
+                        className="flex items-center gap-1 text-sm content-center cursor-pointer group"
                         style={{ color:'#000' }} // Change text color based on fullscreen state
                     >
-                        <IoIosAddCircleOutline className='text-lg text-gray-500 hover:text-black'/>
-                        <span className='text-lg text-gray-500 hover:text-black'>Compare</span>
+                        <IoIosAddCircleOutline className='text-lg text-gray-500 group-hover:text-black'/>
+                        <span className='text-lg text-gray-500 group-hover:text-black'>Compare</span>
                     </div>
                 </div>
                 <div className="flex gap-2 flex-wrap">
